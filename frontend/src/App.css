@@ -27,7 +27,7 @@ body {
 }
 
 nav {
-  background-color: #232f3e;
+  background-color: #aaaba4d1;
   padding: 1rem 1rem;
 }
 
@@ -46,8 +46,8 @@ nav {
 }
 
 .input-group {
-  width: 90%;
-  margin-right: 35%;
+  width: 60%;
+  margin-left: 20%;
 }
 
 #search_field {

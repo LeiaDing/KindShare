@@ -38,7 +38,7 @@ const Home = () => {
 
   return (
     <>
-      <MetaData title={"Buy Best Products Online"} />
+      <MetaData title={"Share the Love,Find Your Needs--KindShare"} />
       <div className="row">
         {keyword && (
           <div className="col-6 col-md-3 mt-5">
@@ -49,7 +49,7 @@ const Home = () => {
           <h1 id="products_heading" className="text-secondary">
             {keyword
               ? `${data?.products?.length} Products found with keyword: ${keyword}`
-              : "Latest Products"}
+              : "Latest Offering"}
           </h1>
 
           <section id="products" className="mt-5">

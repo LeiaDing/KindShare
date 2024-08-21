@@ -127,7 +127,7 @@ const ProductDetails = () => {
           </div>
           <hr />
 
-          <p id="product_price">${product?.price}</p>
+          <p id="product_price">$KinS {product?.price}</p>
           <div className="stockCounter d-inline">
             <span className="btn btn-danger minus" onClick={decreseQty}>
               -
@@ -149,7 +149,7 @@ const ProductDetails = () => {
             disabled={product.stock <= 0}
             onClick={setItemToCart}
           >
-            Add to Cart
+            Add to Pick Up Basket
           </button>
 
           <hr />
@@ -170,7 +170,7 @@ const ProductDetails = () => {
           <p>{product?.description}</p>
           <hr />
           <p id="product_seller mb-3">
-            Sold by: <strong>{product?.seller}</strong>
+            Sold by: TammyNorman
           </p>
 
           {isAuthenticated ? (

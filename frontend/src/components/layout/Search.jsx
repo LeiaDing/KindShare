@@ -22,14 +22,16 @@ const Search = () => {
           id="search_field"
           aria-describedby="search_btn"
           className="form-control"
-          placeholder="Enter Product Name ..."
+          placeholder="Enter what you need ..."
           name="keyword"
           value={keyword}
           onChange={(e) => setKeyword(e.target.value)}
         />
         <button id="search_btn" className="btn" type="submit">
+
           <i className="fa fa-search" aria-hidden="true"></i>
         </button>
+      
       </div>
     </form>
   );

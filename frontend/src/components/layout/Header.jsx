@@ -24,18 +24,23 @@ const Header = () => {
       <div className="col-12 col-md-3 ps-5">
         <div className="navbar-brand">
           <a href="/">
-            <img src="/images/shopit_logo.png" alt="ShopIT Logo" />
+            <img src="/images/KindShare.png" alt=" Logo" />
           </a>
         </div>
       </div>
       <div className="col-12 col-md-6 mt-2 mt-md-0">
-        <Search />
+      <div className="text-center">
+          <Search />
+          <p className="slogan mt-3" style={{ color: "Green", fontFamily: "'Dancing Script', cursive",fontSize: "2.2rem" }}>
+            Give Freely, Receive Gratefully!
+          </p>
+        </div>
       </div>
       <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
         <a href="/cart" style={{ textDecoration: "none" }}>
           <span id="cart" className="ms-3">
             {" "}
-            Cart{" "}
+            Pick Up Basket{" "}
           </span>
           <span className="ms-1" id="cart_count">
             {cartItems?.length}
@@ -98,7 +103,7 @@ const Header = () => {
           !isLoading && (
             <Link to="/login" className="btn ms-4" id="login_btn">
               {" "}
-              Login{" "}
+              Please Login{" "}
             </Link>
           )
         )}
